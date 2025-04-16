@@ -2,25 +2,67 @@
 <html lang="en">
 
 <head>
+    <!-- Basic Meta Tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Karan Chaughule</title>
+    <title>Karan Chaughule – Full Stack Developer</title>
+    <meta name="description" content="Hi, I'm Karan Chaughule – a passionate full-stack developer with expertise in building modern, scalable web applications.">
+    <meta name="author" content="Karan Chaughule">
+    <link rel="canonical" href="https://karanchaughule.online" />
+  
+    <!-- Stylesheets -->
     <link href="css/style.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet" />
+  
+    <!-- ScrollReveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- Google tag (gtag.js) -->
+  
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Karan Chaughule – Full Stack Developer" />
+    <meta property="og:description" content="Full-stack developer based in Maharashtra, building scalable web applications." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://karanchaughule.online" />
+    <meta property="og:image" content="https://karanchaughule.online/assets/karan-avatar.jpg" />
+    <meta property="og:site_name" content="Karan Chaughule" />
+  
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Karan Chaughule – Full Stack Developer" />
+    <meta name="twitter:description" content="Experienced full-stack developer building high-quality digital solutions." />
+    <meta name="twitter:image" content="https://karanchaughule.online/assets/karan-avatar.jpg" />
+  
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Karan Chaughule",
+      "url": "https://karanchaughule.online",
+      "sameAs": [
+        "https://www.instagram.com/im_karannn72",
+        "https://www.linkedin.com/in/karan-chaughule-955b5a1b0",
+        "https://github.com/karan7272",
+        "https://twitter.com/im_karannn7272",
+        "https://www.facebook.com/profile.php?id=100049490363310"
+      ]
+    }
+    </script>
+  
+    <!-- Favicon -->
+    <link rel="icon" href="https://karanchaughule.online/favicon.ico" type="image/x-icon" />
+  
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L9RBG9BK4Y"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-
-        gtag("config", "G-L9RBG9BK4Y");
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-L9RBG9BK4Y");
     </script>
-</head>
+  </head>
+  
 
 <body>
     <!--Scroll to Top button-->
@@ -404,7 +446,7 @@
                 >design work or partnerships.</span
               >
             </p>
-            <form method="post" class="contact-form">
+            <form  action="https://getform.io/f/ayvkonxb" method="post" class="contact-form">
               <div class="first-row">
                 <input type="text" id="name" placeholder="Name" required />
               </div>
@@ -449,9 +491,9 @@
         Email.send({
           Host: "smtp.elasticemail.com",
           Username: "karanchaugule13@gmail.com",
-          Password: "7B835A130B3BE8A69CD3DEADEA47BAD6463F",
+          Password: "B1AAF4F6DCA59D855ACDC0FE343B18F987DD",
           To: "karanchaugule13@gmail.com",
-          From: email,
+          From: "karanchaugule13@gmail.com",
           Subject: subject,
           Body: "Name: " + name + "<br> Message: " + message,
         }).then((message) => alert("Thank You !"));
